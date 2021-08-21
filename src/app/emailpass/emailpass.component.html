@@ -1,0 +1,18 @@
+<div class="container email">
+    <h2>Lets get started</h2>
+    <p>Access your policy documents, keep tabs on renewal dates and check your cover level</p>
+    <form  #emailForm="ngForm">
+        <div class="form-outline col-5 mb-4">
+            <label class="form-label">Email Address</label>
+            <input type="email" id="email" class="form-control" name="email" ngModel/>
+         </div>
+         <div class="form-outline col-5 mb-4">
+            <label class="form-label">Password</label>
+            <input type="email" id="password" class="form-control" name="password" ngModel/>
+         </div>
+         <button type="button" class="btn btn-primary btn-block col-5" (click)="onSubmit(emailForm)">
+            Next
+         </button>
+    </form>
+</div>
+
