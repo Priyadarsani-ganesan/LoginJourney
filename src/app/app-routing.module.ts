@@ -6,9 +6,9 @@ import { UserEmailComponent } from './user-email/user-email.component';
 import { UserPasswordComponent } from './user-password/user-password.component';
 
 const routes: Routes = [
-  { path: '', component: EmailpassComponent },
-  { path: 'password', component: UserPasswordComponent },
-  { path: 'login', component: UserCredentialsComponent}
+  { path: '', component: EmailpassComponent }
+  // { path: 'password', component: UserPasswordComponent },
+  // { path: 'login', component: UserCredentialsComponent}
 ];
 
 @NgModule({
